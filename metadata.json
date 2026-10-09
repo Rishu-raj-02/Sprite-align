@@ -1,0 +1,6 @@
+{
+  "name": "Sprite Frame Slicer & Alignment Studio",
+  "description": "A manual sprite frame slicing and alignment studio with onion skin registration, real-time animation preview, and PNG/sprite sheet export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
