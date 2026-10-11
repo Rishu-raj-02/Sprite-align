@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { 
   ProjectState, 
@@ -714,6 +715,7 @@ export default function App() {
         isOpen={isHelpOpen}
         onClose={() => setIsHelpOpen(false)}
       />
+      <Analytics />
     </div>
   );
 }
